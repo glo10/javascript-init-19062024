@@ -15,7 +15,7 @@
 
 ### Environnement de développement NODE JS
 
-- Installez l'extension [Node.JS](https://nodejs.org/en)
+- Installez [Node.JS](https://nodejs.org/en)
 
 ---
 

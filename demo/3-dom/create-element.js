@@ -12,7 +12,5 @@ const header = document.querySelector('header')
 const ul = document.querySelector('ul')
 const newP = document.createElement('p')
 newP.innerHTML = '<span>New paragraph</span>'
-setTimeout(() => {
-    header.append(img)
-    ul.replaceWith(newP)
-}, 3000)
+header.append(img)
+ul.replaceWith(newP)

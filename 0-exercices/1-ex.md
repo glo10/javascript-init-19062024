@@ -113,6 +113,7 @@ Créer une fonction qui permet de réaliser la suite de Fibonacci : `1, 2, 3, 5,
 
 ### Spécifications techniques
 
+- Prenez en paramètre de votre fonction le nombre max permettant d'afficher la suite jusqu'à ce dernier
 - Retournez les valeurs précédentes sous la forme d'un tableau
 
 ---

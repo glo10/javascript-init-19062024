@@ -9,3 +9,10 @@ function getGeneration(age) {
     return "Senior";
   }
 }
+
+console.log(getGeneration(5))
+console.log(getGeneration(10))
+console.log(getGeneration(17))
+console.log(getGeneration(18))
+console.log(getGeneration(50))
+console.log(getGeneration(51))

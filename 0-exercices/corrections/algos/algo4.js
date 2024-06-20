@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {number} hour 
+ * @returns string
+ */
 function getMoment(hour) {
   if (hour > 6 && hour < 12) {
     return "Matin";

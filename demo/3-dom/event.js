@@ -13,7 +13,6 @@ imgElt.addEventListener('mouseenter', function(event) {
 // callback avec une fonction nommée pour des opérations communes ou utilisées dans d'autres événements
 imgElt.addEventListener('mouseleave', mouseLeaveEvent)
 
-
 function mouseLeaveEvent(e) {
     console.log('event mouseleave', e)
     const h1 = document.querySelector('h1')

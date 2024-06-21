@@ -39,6 +39,6 @@
 - [Apprendre les sélécteurs CSS](https://flukeout.github.io/)
 - [Jeu apprendre les flexbox (mise en page)](https://flexboxfroggy.com/#fr)
 - [Jeu apprendre les grid](https://cssgridgarden.com/#fr)
-
 - [Apprendre les expressions régulières](https://regexlearn.com/fr/learn/regex101)
+- [CSS cheat Sheet](https://groupe-sii.github.io/cheat-sheets/css-selectors/index.html)
 

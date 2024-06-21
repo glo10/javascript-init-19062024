@@ -81,7 +81,8 @@ Vérifiez qu'une adresse email est au bon format.
 ### Spécifications techniques
 
 - Utilisez les expressions régulières Regex
-- Appuyez-vous sur cette [documentation](https://fireship.io/lessons/regex-cheat-sheet-js/)
+- Appuyez-vous sur cette [documentation pour comprendre la démarche des regex](https://fireship.io/lessons/regex-cheat-sheet-js/)
+- Utilisez plutôt la fonction [test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test) pour faire les vérifications à la place des fonctions match, search, etc. proposées dans la documentation précédente.
 
 ---
 

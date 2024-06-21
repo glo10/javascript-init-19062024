@@ -10,8 +10,9 @@
  */
 // Chargement d'un contenu en json exterieur
 fetch('https://jsonplaceholder.typicode.com/photos')
-.then((res) => res.json())
-.then(photos => {
+// à ce stade, sans res.json(), les données ne sont pas manipulables avec le JS
+.then((res) => res.json()) // retourne une promesse qui contient les données manipulables avec le JS
+.then(photos => { // Nommage libre du paramètre qui contient les données
     const article = document.createElement('article')
     for(let i = 0; i < 10; i++) {
         const div = document.createElement('div')
@@ -31,7 +32,7 @@ fetch('https://jsonplaceholder.typicode.com/photos')
 
 // Chargement d'un fichier textuelle local
 fetch('./header.html')
-.then(res => res.text())
+.then(res => res.text()) // transforme le résultat en données textuelles exploitable avec JS
 .then(res => {
     document.querySelector('body').insertAdjacentHTML('afterbegin', res)   
 })

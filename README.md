@@ -41,3 +41,15 @@
 - [Jeu apprendre les grid](https://cssgridgarden.com/#fr)
 - [Apprendre les expressions régulières](https://regexlearn.com/fr/learn/regex101)
 - [CSS cheat Sheet](https://groupe-sii.github.io/cheat-sheets/css-selectors/index.html)
+
+## Testing
+
+1. A la racine, exécutez `npm install` dans un terminal
+
+### Unitaires
+
+- A la racine, exécutez `npm run test`
+
+### Fonctionnels
+
+- A la racine, exécutez `npm run e2e` et se laisser guider ensuite

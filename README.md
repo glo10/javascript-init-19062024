@@ -41,6 +41,3 @@
 - [Jeu apprendre les grid](https://cssgridgarden.com/#fr)
 - [Apprendre les expressions régulières](https://regexlearn.com/fr/learn/regex101)
 - [CSS cheat Sheet](https://groupe-sii.github.io/cheat-sheets/css-selectors/index.html)
-
-
-https://www.m2iformation.fr/mon-compte/particuliers/session/

@@ -50,6 +50,7 @@ fetch('https://api.github.com/users')
             }
         ]
     }
+    return res.json()
 })
-.then(res => console.log('resultat gestion erreur', res))
+.then(res => console.log('resultat', res))
 .catch((error) => console.error('error', error))

@@ -37,3 +37,19 @@ fetch('./header.html')
     document.querySelector('body').insertAdjacentHTML('afterbegin', res)   
 })
 .catch((error) => console.error('error', error))
+
+fetch('https://api.github.com/users')
+.then(res => {
+    if(res.status !== 200) {
+        // throw new Error('limite nombre requêtes')
+        return [
+            {
+                id: 1,
+                type: 'type',
+                url: 'http://google.com'
+            }
+        ]
+    }
+})
+.then(res => console.log('resultat gestion erreur', res))
+.catch((error) => console.error('error', error))

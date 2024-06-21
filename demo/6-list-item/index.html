@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste</title>
+</head>
+<body>
+    <h1>Liste</h1>
+    <script>
+        // Créer une liste dynamique
+        const ul = document.createElement('ul')
+        for(let i = 1; i <= 10; i++) {
+            const li = document.createElement('li')
+            li.innerHTML = `<span>liste numéro ${i}</span>` // idem que li.innerHTML = '<span>item' + i + '</span>'
+            ul.append(li)
+        }
+        document
+            .querySelector('h1')
+            .insertAdjacentHTML('afterend', ul.outerHTML)
+    </script>
+</body>
+</html>
